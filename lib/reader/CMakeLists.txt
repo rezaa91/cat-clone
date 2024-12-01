@@ -1,4 +1,4 @@
 project(reader)
 
 add_library(reader Reader.cpp)
-target_include_directories(reader PUBLIC ../../include)
+target_include_directories(reader PRIVATE ../../include/reader)
