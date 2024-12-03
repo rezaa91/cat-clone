@@ -8,4 +8,5 @@ private:
 public:
     Reader() = delete;
     Reader(const std::string& filename);
+    void read() const;
 };
